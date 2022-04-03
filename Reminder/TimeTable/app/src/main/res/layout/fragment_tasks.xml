@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TasksFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/task"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:clickable="true"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_input_add"
+        android:focusable="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingSortButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:clickable="true"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:focusable="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sort_by_title"
+        android:layout_width="50dp"
+        android:layout_marginBottom="80dp"
+        android:visibility="invisible"
+        android:layout_marginStart="16dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start|bottom"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_sort_alphabetically"
+        android:focusable="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sort_by_date"
+        android:layout_width="50dp"
+        android:visibility="invisible"
+        android:layout_height="50dp"
+        android:layout_marginBottom="145dp"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="start|bottom"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_day"
+        android:focusable="true" />
+</FrameLayout>
