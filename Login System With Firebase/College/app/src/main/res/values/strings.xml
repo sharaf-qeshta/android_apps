@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">College</string>
+    <string name="name">Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="retype_the_password">Retype The Password</string>
+    <string name="register">Register</string>
+    <string name="login">login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset">reset</string>
+    <string name="chats">chats</string>
+    <string name="settings">settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_password">Change Password?</string>
+    <string name="log_out">log out</string>
+    <string name="message">message</string>
+</resources>
