@@ -1,0 +1,2 @@
+swipe left to modify
+swipe right to delete
