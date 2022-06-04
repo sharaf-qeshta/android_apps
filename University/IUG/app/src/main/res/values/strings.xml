@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">IUG</string>
+
+    <!-- login screen -->
+    <string name="content_description">image</string>
+    <string name="title_login">LOGIN</string>
+    <string name="edit_text_hint_email_id">Email ID</string>
+    <string name="edit_text_hint_password">Password</string>
+    <string name="label_forgot_password">Forgot Password?</string>
+    <string name="button_label_login">Login</string>
+    <string name="don_t_have_an_account">Don`t have an account?</string>
+    <string name="register"><u>Register</u></string>
+
+    <!-- sign up screen -->
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_first_name">First name</string>
+    <string name="edit_text_hint_confirm_password">Confirm Password</string>
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Conditions</u></string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="underlined_login"><u>Login</u></string>
+    <string name="button_label_register">Register</string>
+
+    <!-- progress bar -->
+    <string name="please_wait">Please Wait&#8230;</string>
+
+
+    <!-- error messages -->
+    <string name="error_message_enter_first_name">Please enter first name</string>
+    <string name="error_message_enter_last_name">Please enter last name</string>
+    <string name="error_message_enter_email">Please enter email.</string>
+    <string name="error_message_enter_password">Please enter password</string>
+    <string name="error_message_enter_confirm_password">Please confirm your password</string>
+    <string name="error_message_enter_password_mismatch">password and confirm password must match</string>
+    <string name="error_message_invalid_email">Please enter a valid email</string>
+    <string name="error_message_invalid_password">Please enter a valid password</string>
+
+    <!-- forgot password screen -->
+    <string name="title_forgot_password">FORGOT PASSWORD?</string>
+    <string name="forgot_password_title_description">Enter your username
+        or e-mail address we\'ll send you an email to reset your password
+    </string>
+    <string name="button_label_submit">Submit</string>
+
+    <!-- drawer menu -->
+    <string name="navigate_home">Home</string>
+    <string name="navigate_chats">Chats</string>
+    <string name="navigate_profile">Profile</string>
+    <string name="navigate_add_course">Add Course</string>
+    <string name="navigate_assignments">Assignments</string>
+    <string name="navigate_semesters">Semesters</string>
+    <string name="navigate_exit">Log Out</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- profile fragment -->
+    <string name="title_profile">PROFILE</string>
+    <string name="edit_text_hint_mobile_number">Mobile Number</string>
+    <string name="label_male">MALE</string>
+    <string name="label_female">FEMALE</string>
+    <string name="label_save">SAVE</string>
+
+    <!-- room fragment -->
+    <string name="type_your_message">Type a message</string>
+    <string name="NoRecent">No recent</string>
+</resources>

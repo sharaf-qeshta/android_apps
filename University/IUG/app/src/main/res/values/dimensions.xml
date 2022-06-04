@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_background_radius">10dp</dimen>
+
+    <!-- login screen -->
+    <dimen name="header_image_height">200dp</dimen>
+    <dimen name="logo_width_size">220dp</dimen>
+    <dimen name="logo_height_size">100dp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="edit_text_text_size">16sp</dimen>
+    <dimen name="edit_text_padding">16dp</dimen>
+    <dimen name="clickable_text_view_padding">5dp</dimen>
+    <dimen name="forgot_password_text_size">14sp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+    <dimen name="label_text_view_text_size">16sp</dimen>
+
+
+    <!-- register screen -->
+    <dimen name="tool_bar_padding_start">-25dp</dimen>
+    <dimen name="tool_bar_title_text_size">18sp</dimen>
+    <dimen name="txt_terms_condition_margin_start">10dp</dimen>
+    <dimen name="txt_terms_condition_text_size">14sp</dimen>
+    <dimen name="button_padding_top_bottom">8dp</dimen>
+
+    <!-- progress bar -->
+    <dimen name="progress_dialog_content_padding">10dp</dimen>
+    <dimen name="progress_bar_size">50dp</dimen>
+    <dimen name="progress_text_margin_start">16dp</dimen>
+    <dimen name="progress_text_size">16sp</dimen>
+
+
+    <!-- forgot password screen -->
+    <dimen name="forgot_password_title_text_size">18sp</dimen>
+    <dimen name="forgot_password_title_description_text_size">14sp</dimen>
+
+
+    <!-- profile fragment -->
+    <dimen name="user_image_background_stroke">4dp</dimen>
+    <dimen name="user_image_background_corner_radius">10dp</dimen>
+    <dimen name="profile_user_image_size">150dp</dimen>
+    <dimen name="profile_user_image_margin_top">50dp</dimen>
+    <dimen name="profile_user_image_margin">3dp</dimen>
+    <dimen name="profile_radio_button_height">40dp</dimen>
+    <dimen name="profile_radio_button_margin_start_end">3dp</dimen>
+    <dimen name="gender_radio_button_radius">3dp</dimen>
+    <dimen name="gender_radio_button_stroke_width">3dp</dimen>
+
+
+</resources>

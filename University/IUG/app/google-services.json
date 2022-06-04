@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853497946658",
+    "project_id": "iug-app",
+    "storage_bucket": "iug-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853497946658:android:138dc0050f1560050e207b",
+        "android_client_info": {
+          "package_name": "com.example.iug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853497946658-pk1q420ih5sdlolg17shh7l26cgmfg5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIGZI636FxktOAQHW2qtmHCq-U0DuSo6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853497946658-pk1q420ih5sdlolg17shh7l26cgmfg5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/navigate_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_chat"
+            android:title="@string/navigate_chats"
+            android:icon="@drawable/ic_chat" />
+        <item
+            android:id="@+id/nav_account"
+            android:title="@string/navigate_profile"
+            android:icon="@drawable/ic_account" />
+        <item
+            android:id="@+id/nav_add_course"
+            android:title="@string/navigate_add_course"
+            android:icon="@drawable/ic_add_courses" />
+
+        <item
+            android:id="@+id/nav_assignments"
+            android:title="@string/navigate_assignments"
+            android:icon="@drawable/ic_assignments" />
+
+        <item
+            android:id="@+id/nav_semesters"
+            android:title="@string/navigate_semesters"
+            android:icon="@drawable/ic_semesters" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:title="@string/navigate_exit"
+            android:icon="@drawable/ic_exit" />
+
+    </group>
+
+</menu>
